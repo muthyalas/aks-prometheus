@@ -1,7 +1,7 @@
 # Notes and Issues
 
 ## helm prometheus
-helm install stable/prometheus
+`helm install stable/prometheus`
 
 NOTES:
 The Prometheus server can be accessed via port 80 on the following DNS name from within your cluster:
