@@ -58,6 +58,9 @@ kubectl --namespace default port-forward $POD_NAME 3000
 * Configure grafana
 https://medium.com/@timfpark/simple-kubernetes-cluster-monitoring-with-prometheus-and-grafana-dd27edb1641
 
+### grafana dashboards
+* [Kubernetes cluster monitoring (via Prometheus)](https://grafana.com/dashboards/315)
+* [Kubernetes All Nodes](https://grafana.com/dashboards/3131)
 ## helm rbac issue
 * User "system:serviceaccount:kube-system:default" cannot get namespaces in the namespace "default"
 https://github.com/kubernetes/helm/blob/master/docs/rbac.md
